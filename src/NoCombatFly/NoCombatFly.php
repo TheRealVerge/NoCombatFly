@@ -62,7 +62,7 @@ $damager->getLevel()->addSound(new GhastSound($damager));
 					$human->sendMessage(TF::GRAY."(".TF::AQUA."!".TF::GRAY.")".TF::AQUA."Flight disabled in".TF::RED."Combat!");
 
 //HeartParticle
-$human->getLevel()->addParticle(new HeartParticle($human->getLocation()));
+$damager->getLevel()->addParticle(new HeartParticle($human->getLocation()));
 //GhastSound
 $human->getLevel()->addSound(new GhastSound($human));
 
