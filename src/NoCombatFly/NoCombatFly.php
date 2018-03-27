@@ -25,11 +25,11 @@ use pocketmine\utils\TextFormat as TF;
 class NoCombatFly extends PB implements L{
 
   public function onEnable(){
-   $this->getServer()->getLogger()->info("NCFly by TheRealVerge enabled");
+   $this->getServer()->getLogger()->info("NCFly enabled");
    $this->getServer()->getPluginManager()->registerEvents($this, $this);
 }
   public function onDisable(){
-   $this->getServer()->getLogger()->info("NCFly by TheRealVerge disabled");
+   $this->getServer()->getLogger()->info("NCFly disabled");
 }
     
     /*
